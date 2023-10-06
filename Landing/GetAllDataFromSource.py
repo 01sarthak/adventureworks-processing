@@ -14,7 +14,7 @@
 
 # COMMAND ----------
 
-entityName = 'Address'
+entityName = 'Customer'
 result, path = copyFilesFromSource(entityName)
 if result:
     print('total files copied from source to landing ' + str(len(dbutils.fs.ls(path))))

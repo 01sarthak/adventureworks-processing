@@ -3,8 +3,8 @@
 
 # COMMAND ----------
 
-entityName = "Address"
-#Get Data from Raw layer for the Selected Entity
+entityName = "Customer"
+#Get Data from Raw layer for the Entity
 dfRaw = sourceRawLayerdata(entityName)
 
 destinationPath = certifiedLandingPath+'/'+entityName

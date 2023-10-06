@@ -9,7 +9,7 @@
 
 from pyspark.sql.functions import from_json, col
 
-entityName = 'Address'
+entityName = 'Customer'
 inner_schema = get_entity_schema(entityName)
 sourcefilepath = sourceLandingPath+'/'+entityName+subDirectoryPathWithDateTime
 destinationfilepath = rawLandingPath+'/'+entityName+subDirectoryPathWithDateTime
